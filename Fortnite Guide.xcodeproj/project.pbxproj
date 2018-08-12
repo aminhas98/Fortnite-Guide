@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B443C3FE211E2814000D4B94 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B443C3FD211E2814000D4B94 /* GoogleMobileAds.framework */; };
+		B443C400211E2849000D4B94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B443C3FF211E2849000D4B94 /* GoogleService-Info.plist */; };
 		B474DDB1211B313400339FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B474DDB0211B313400339FB3 /* AppDelegate.swift */; };
 		B474DDB3211B313400339FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B474DDB2211B313400339FB3 /* ViewController.swift */; };
 		B474DDB6211B313400339FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B474DDB4211B313400339FB3 /* Main.storyboard */; };
 		B474DDB8211B313500339FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B474DDB7211B313500339FB3 /* Assets.xcassets */; };
 		B474DDBB211B313500339FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B474DDB9211B313500339FB3 /* LaunchScreen.storyboard */; };
+		B474DDC3211B4A2300339FB3 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B474DDC2211B4A2300339FB3 /* FirstTableViewController.swift */; };
+		B474DDC5211B4A5800339FB3 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B474DDC4211B4A5800339FB3 /* SecondTableViewController.swift */; };
+		B474DDC7211B4C4200339FB3 /* SecondTableStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B474DDC6211B4C4200339FB3 /* SecondTableStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B443C3FD211E2814000D4B94 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		B443C3FF211E2849000D4B94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B474DDAD211B313400339FB3 /* Fortnite Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortnite Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B474DDB0211B313400339FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B474DDB2211B313400339FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		B474DDB7211B313500339FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B474DDBA211B313500339FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B474DDBC211B313500339FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B474DDC2211B4A2300339FB3 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		B474DDC4211B4A5800339FB3 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		B474DDC6211B4C4200339FB3 /* SecondTableStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B443C3FE211E2814000D4B94 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +65,17 @@
 		B474DDAF211B313400339FB3 /* Fortnite Guide */ = {
 			isa = PBXGroup;
 			children = (
+				B443C3FD211E2814000D4B94 /* GoogleMobileAds.framework */,
 				B474DDB0211B313400339FB3 /* AppDelegate.swift */,
 				B474DDB2211B313400339FB3 /* ViewController.swift */,
+				B474DDC2211B4A2300339FB3 /* FirstTableViewController.swift */,
+				B474DDC6211B4C4200339FB3 /* SecondTableStruct.swift */,
+				B474DDC4211B4A5800339FB3 /* SecondTableViewController.swift */,
 				B474DDB4211B313400339FB3 /* Main.storyboard */,
 				B474DDB7211B313500339FB3 /* Assets.xcassets */,
 				B474DDB9211B313500339FB3 /* LaunchScreen.storyboard */,
 				B474DDBC211B313500339FB3 /* Info.plist */,
+				B443C3FF211E2849000D4B94 /* GoogleService-Info.plist */,
 			);
 			path = "Fortnite Guide";
 			sourceTree = "<group>";
@@ -122,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B443C400211E2849000D4B94 /* GoogleService-Info.plist in Resources */,
 				B474DDBB211B313500339FB3 /* LaunchScreen.storyboard in Resources */,
 				B474DDB8211B313500339FB3 /* Assets.xcassets in Resources */,
 				B474DDB6211B313400339FB3 /* Main.storyboard in Resources */,
@@ -136,7 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B474DDB3211B313400339FB3 /* ViewController.swift in Sources */,
+				B474DDC5211B4A5800339FB3 /* SecondTableViewController.swift in Sources */,
+				B474DDC7211B4C4200339FB3 /* SecondTableStruct.swift in Sources */,
 				B474DDB1211B313400339FB3 /* AppDelegate.swift in Sources */,
+				B474DDC3211B4A2300339FB3 /* FirstTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +302,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8ZBSZ5M47;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fortnite\\ Guide",
+					"$(PROJECT_DIR)/Fortnite\\ Guide",
+					"$(PROJECT_DIR)/Fortnite\\ Guide",
+				);
 				INFOPLIST_FILE = "Fortnite Guide/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +326,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8ZBSZ5M47;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fortnite\\ Guide",
+					"$(PROJECT_DIR)/Fortnite\\ Guide",
+					"$(PROJECT_DIR)/Fortnite\\ Guide",
+				);
 				INFOPLIST_FILE = "Fortnite Guide/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Fortnite Guide.xcodeproj">
+      location = "group:/Users/Angadminhas/Desktop/Xcode/Fortnite Guide/Fortnite Guide/GoogleMobileAds.framework">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
